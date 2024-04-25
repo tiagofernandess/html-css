@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: dimgray;
+        margin: 0px;
+        text-align: justify;
+
+    }
+    header {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 6px;
+    }
+
+    nav {
+        background-color: rgb(97, 93, 93);
+        padding: 3px;
+        box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+        border-radius: 4px;
+    }
+
+    nav > a {
+        text-decoration: none;
+        color: white;
+        font-weight: normal;
+        margin-right: 30px;         
+    }
+
+    nav > a:hover {
+        text-decoration: underline;
+        color: black;
+    }
+
+    main {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 6px;
+    }
+
+    article {
+        background-color: lightgray;
+        border-radius: 3px;
+        
+    }
+
+    article > aside {
+        background-color: rgb(158, 151, 151);
+        border-radius: 3px;
+     
+    }
+
+    footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 4px;
+        margin: 0px;
+    }
+
+footer > p {
+    margin: 0px;
+}
+
+h2 {
+    padding: 2px;
+}
+
+article > p {
+    padding: 3px;
+}
+
+</style>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Conteudo 1</a>
+            <a href="#">Conteudo 2</a>
+            <a href="#">Conteudo 3</a>
+            <a href="#">Conteudo 4</a>
+            <a href="#">Conteudo 5</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Noticias sobre os EUA</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus laboriosam sequi maiores rerum voluptates quae eligendi voluptas molestias officia culpa! Dolorem, odio provident! Consequatur eum fuga recusandae itaque laudantium ea.</p>
+                <aside>
+                    <p>Artigo escrito por Lorem</p>
+                </aside>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus exercitationem eum unde nihil nulla illum neque velit dolorum quidem tempora nisi rerum, fugiat, non atque porro? Itaque, cumque. Earum, itaque.</p>
+                <aside>
+                    <p>Artigo escrito por Lorem</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p> &copy; 2024 Desenvolvido por Tiago Fernandes</p>
+    </footer>
+</body>
+</html>
