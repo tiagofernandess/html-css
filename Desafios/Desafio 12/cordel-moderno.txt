@@ -1,67 +1,60 @@
-Cordel Moderno
-Por Milton Duarte
-[SITE: https://www.recantodasletras.com.br/poesias/3186743]
+Claro, aqui está uma breve descrição do que cada propriedade CSS faz no código fornecido:
 
-Estou ficando cansado
-Da tal tecnologia
-Só se fala por e-mail
-Mensagem curta e fria
-Twitter e Facebook
-Antes que eu caduque
-Vou dizer tudo em poesia.
+- `margin`: Define a margem ao redor de um elemento como 0 pixels.
+- `padding`: Define o preenchimento interno de um elemento como 0 pixels.
 
-//---
+- `min-height`: Define a altura mínima do elemento como 100% da altura do viewport.
 
-Não é mais como era antes
-É tudo abreviado
-"Você" só tem duas letras
-O "O" e o "E" foi riscado
-Para declarar o amor
-Basta botar uma flor
-E um coração desenhado.
+- `background-color`: Define a cor de fundo como cinza escuro para o elemento.
 
-//---
+- `background-color`: Define a cor de fundo como preto para o elemento.
+- `color`: Define a cor do texto como branco.
+- `text-align`: Alinha o texto centralmente.
 
-Arroba agora não pesa
-É parte de um endereço
-Ponto final nem se usa
-Ou vai até no começo
-Agora é .com
-Se o saite é muito bom
-Ele vale um alto preço.
+- `padding-top`: Define o preenchimento superior como 40 pixels.
+- `font-variant`: Define uma variante da fonte como maiúsculas e minúsculas pequenas.
+- `font-family`: Define a família da fonte como uma variável CSS.
+- `font-size`: Define o tamanho da fonte como 10% da largura da viewport.
 
-Pra piorar a liguagem
-O emoticom é um risco
-Tem símbolo para tudo
-Ponto e vírgula e um asterisco
-Um beijo significa
-Pra entender como fica
-Decifre esse rabisco.
+- `padding-bottom`: Define o preenchimento inferior como 40 pixels.
 
-//---
+- `color`: Define a cor do texto como branco.
+- `text-decoration`: Remove a decoração de texto (sublinhado).
+- `font-weight`: Define a espessura da fonte como negrito.
 
-Tenho saudade das cartas
-Escritas com a própria mão
-Mandava no mês de Junho
-Só chegava no Verão
-Mas matava a saudade
-Era texto de verdade
-Nas linhas do coração.
+- `text-decoration`: Adiciona um sublinhado quando o link é hoverado.
 
-//---
+- `padding-top`: Define o preenchimento superior como 5% da altura da viewport.
+- `padding-bottom`: Define o preenchimento inferior como 5% da altura da viewport.
+- `line-height`: Define a altura da linha como o dobro da altura da fonte.
+- `padding-left`: Define o preenchimento à esquerda como 30 pixels.
+- `font-family`: Define a família da fonte como uma variável CSS.
+- `font-size`: Define o tamanho da fonte como 3% da largura da viewport.
 
-Agora, escrevo e envio
-Chegando na mesma hora
-Mas quando vou prosear
-A pessoa foi embora
-Abriu outro aplicativo
-O mundo ficou cativo
-Da tecnologia do agora.
+- `padding-bottom`: Define o preenchimento inferior como 1.5 vezes a altura da fonte.
 
-Felizmente, pra orar
-Não precisa de internet
-Deus escuta todo mundo
-Se quiser, faça esse teste
-Dois pontos são dois joelhos
-Seus lábios são aparelhos
-Deixe que Deus interprete.
+- `background-color`: Define a cor de fundo como branco.
+- `color`: Define a cor do texto como preto.
+
+- `background-color`: Define a cor de fundo como uma cor RGB específica.
+- `color`: Define a cor do texto como branco.
+- `box-shadow`: Adiciona uma sombra à caixa do elemento.
+- `background-attachment`: Fixa a imagem de fundo.
+  
+- `display`: Define o elemento como um bloco em linha.
+- `padding`: Define o preenchimento do elemento como 5 pixels.
+- `background-color`: Define a cor de fundo como uma cor RGBA específica, com transparência.
+- `text-shadow`: Adiciona uma sombra ao texto.
+
+- `background-image`: Define a imagem de fundo como uma URL específica.
+- `background-position`: Define a posição da imagem de fundo como à direita e centralizada.
+- `background-size`: Define o tamanho da imagem de fundo como cobrir a área do elemento.
+
+- `background-image`: Define a segunda imagem de fundo como uma URL específica.
+- `background-position`: Define a posição da segunda imagem de fundo como à direita e centralizada.
+- `background-size`: Define o tamanho da segunda imagem de fundo como cobrir a área do elemento.
+
+- `background-color`: Define a cor de fundo como preto.
+- `color`: Define a cor do texto como branco.
+- `text-align`: Alinha o texto centralmente.
+- `padding`: Define o preenchimento do elemento como 8 pixels.
