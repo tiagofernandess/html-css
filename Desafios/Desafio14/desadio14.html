@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Desafio14</title>
+	<style>
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		table {
+			width: 600px;
+			border-collapse: collapse;
+			
+			
+		}
+
+		th {
+			border: 1px solid black;
+			text-align: center;
+			background-color: gray;
+			color: white;
+			padding: 5px;
+			font-weight: bold;
+			font-size: 20px;
+		}
+
+		td {
+			border: 1px solid black;
+			text-align: center;
+			padding: 3px;
+			
+			
+		}
+
+		.eh {
+			background-color: white;
+			text-align: center;
+			color: black;
+		}
+
+		.media th {
+			text-align: left;
+			background-color: gray;
+			color: white;
+			font-weight: bold;
+			text-indent: 2px;
+		}
+
+		.medianum {
+			text-align: center;
+			background-color: gray;
+			color: white;
+			font-weight: bold;
+		}
+
+		.ladoe {
+			text-align: left;
+		}
+
+	</style>
+</head>
+<body>
+	<table>
+		<thead>
+			<tr>
+				<th rowspan="2">Área</th>
+				<th rowspan="2">Disciplinas</th>
+				<th colspan="2">Notas</th>
+				<th rowspan="2">Média</th>
+			</tr>
+			<tr>
+				<th>Nota1</th>
+				<th>Nota2</th>
+			</tr>
+			<tr>
+				<th rowspan="4"  class="eh">Exatas</th>
+				<td class="ladoe">Matemática</td>
+				<td>9.0</td>
+				<td>8.5</td>
+				<td>8.75</td>
+			</tr>
+			<tr>
+				<td class="ladoe">Física</td>
+				<td>10.0</td>
+				<td>10.0</td>
+				<td>10.0</td>
+			</tr>
+			<tr>
+				<td class="ladoe">Quimica</td>
+				<td>9.0</td>
+				<td>9.0</td>
+				<td>9.0</td>
+			</tr>
+			<tr>
+				<td class="ladoe">Biologia</td>
+				<td>10.0</td>
+				<td>9.0</td>
+				<td>9.5</td>
+			</tr>
+			<tr  class="media">
+				<th colspan="4">Média de Exatas</th>
+				<td class="medianum">9.3</td>
+			</tr>
+			<tr>
+				<th class="eh" rowspan="2">Humanas</th>
+				<td class="ladoe">História</td>
+				<td>10.0</td>
+				<td>10.0</td>
+				<td>10.0</td>
+			</tr>
+			<tr>
+				<td class="ladoe">Geografia</td>
+				<td>10.0</td>
+				<td>10.0</td>
+				<td>10.0</td>
+			</tr>
+			<tr  class="media">
+				<th colspan="4">Média de Humanas</th>
+				<td class="medianum">10.0</td>
+			</tr>	
+		</thead>
+		<tbody>
+
+		</tbody>
+	</table>
+</body>
+</html>
