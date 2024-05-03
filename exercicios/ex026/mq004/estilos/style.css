@@ -27,6 +27,7 @@ main {
 	margin: auto;
 	margin-top: 20px;
 	border-radius: 5px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.589);
 }
 
 h1 {
