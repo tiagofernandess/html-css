@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.container {
+	background-color: #ccc;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: flex-start;
+
+}
+
+.item {
+	background-color: black;
+	color: white;
+	padding: 20px;
+	margin: 5px;
+	width: 30px;
+	height: 30px;
+	
+}
